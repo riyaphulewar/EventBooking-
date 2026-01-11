@@ -1,0 +1,17 @@
+package com.eventbookingsystem.eventbookingsystem.dto;
+
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.LocalDateTime;
+
+@Getter @Setter
+public class EventRequest {
+    private String userName;
+    private String title;
+    private String description;
+    private LocalDateTime eventDate;
+    private int availableTickets;
+}
+
